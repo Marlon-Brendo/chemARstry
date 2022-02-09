@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta name="description" content="Model Viewer (VR / AR) • A-Frame">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js"></script>
+    <script src="model-viewer.js"></script>
+  </head>
+  <body>
+    <a-scene rotation="0 0 0">
+      <a-entity model-viewer="Model: #octo; title: Steven"   position="0 0 0" rotation="0 0 0">
+        <a-entity position="0 0 0" rotation="0 0 0" id="octo">
+          
+          <a-entity geometry="primitive: sphere; radius: 0.3" position="-1.4635 -0.4641 1.3092" material="color: green" ></a-entity>
+ 
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="-0.0365    0.2233   -0.4645" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="1.3198   -0.5098   -0.2125" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="-1.2645   -0.6131   -0.0299" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="-0.0847    1.6362    0.1708" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="1.6168   -0.8004    1.2605" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="1.4381   -1.8059   -1.0246" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="-2.5598   -0.2344   -0.7332" material="color: #303030" ></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.4" position="1.0342    2.5683   -0.2757" material="color: #303030" ></a-entity>
+          
+
+        </a-entity>
+      </a-entity>
+        <a-sky color="skyblue"></a-sky>      
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta name="description" content="Model Viewer (VR / AR) • A-Frame">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js"></script>
+    <script src="butane.js"></script>
+    <script src="gesture-detector.js"></script>
+    <script src="gesture-handler.js"></script>
+    <script src="model-viewer.js"></script>
+    <script src="a-tube.js"></script>
+  </head>
+  <body>
+    <a-scene jato="Model: #jato" id="jato">
+
+        <a-sky color="skyblue"></a-sky>      
+    </a-scene>
+    <div style="bottom: 40px; z-index:500; position:absolute; display: flex; justify-content: center; align-items: center; width:100%" >
+      <input type="text" id="test"/>
+      <input type="button" id="go"/>
+  </div> 
+  </body> 
+</html>
