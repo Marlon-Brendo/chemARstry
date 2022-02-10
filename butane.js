@@ -46,7 +46,7 @@ AFRAME.registerComponent('jato', {
             var elCamera = document.querySelector("[camera]"); 
 
             for(let i = 0; i < bonds.aid1.length; i++){
-                debugger
+                // debugger
                 var AtomA = bonds.aid1[i] - 1
                 var AtomB = bonds.aid2[i] - 1
 
